@@ -1,0 +1,6 @@
+phase: ${spring.profiles.active}
+
+spring:
+  config:
+    import:
+      - classpath:/config/${phase}/database.yml
